@@ -5,34 +5,52 @@ class Spinner extends Component {
   render() {
     return (
       <div>
-        <div className="arrow"></div>
-        <ul className="circle">
-          <li>
-            <div className="text">Text 1</div>
-          </li>
-          <li>
-            <div className="text">Text 2</div>
-          </li>
-          <li>
-            <div className="text">Text 3</div>
-          </li>
-          <li>
-            <div className="text">Text 4</div>
-          </li>
-          <li>
-            <div className="text">Text 5</div>
-          </li>
-          <li>
-            <div className="text">Text 6</div>
-          </li>
-          <li>
-            <div className="text">Text 7</div>
-          </li>
-          <li>
-            <div className="text">Text 8</div>
-          </li>
-        </ul>
-        <button className="spin-btn">Spin</button>
+        <div className="circle">
+          <div className="arrow"></div>
+          <ul>
+            <li>
+              <div className="text">
+                <small>
+                  Better Luck <br></br>next time
+                </small>
+              </div>
+            </li>
+            <li>
+              <div className="text">
+                2X <br></br>
+                <small>savings</small>
+              </div>
+            </li>
+            <li>
+              <div className="text">
+                Rs 100 <br></br>
+                <small>cashback</small>
+              </div>
+            </li>
+            <li>
+              <div className="text">Rs 20</div>
+            </li>
+            <li>
+              <div className="text">Rs 50</div>
+            </li>
+            <li>
+              <div className="text">
+                1.5X <br></br>
+                <small>savings</small>
+              </div>
+            </li>
+            <li>
+              <div className="text">
+                2X <br></br>
+                <small>savings</small>
+              </div>
+            </li>
+            <li>
+              <div className="text">Rs 50</div>
+            </li>
+          </ul>
+          <button className="spin-btn">Spin</button>
+        </div>
       </div>
     );
   }

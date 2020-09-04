@@ -49,6 +49,7 @@ li:nth-child(8) {
   border-radius: 50%;
   list-style: none;
   overflow: hidden;
+  box-shadow: 0 0 0.8rem #646464;
 }
 
 li {
@@ -64,12 +65,12 @@ li {
 .text {
   color: rgba(255, 255, 255, 0.87);
   position: absolute;
-  left: -100%;
+  /* left: 10%; */
+  top: 90%;
   width: 200%;
   height: 200%;
   text-align: center;
-  transform: skewY(45deg) rotate(22.5deg);
-  padding-top: 1rem;
+  transform: skewY(45deg) rotate(-60deg);
   cursor: pointer;
 }
 
@@ -81,7 +82,6 @@ li {
   border-top: 30px solid #ffdda1;
   position: absolute;
   left: 50%;
-  top: 12%;
   z-index: 1;
 }
 
@@ -90,11 +90,12 @@ li {
   width: 4rem;
   border-radius: 50%;
   position: absolute;
-  top: 28%;
+  top: calc(50% - 2rem);
   left: calc(50% - 2rem);
   outline: none;
   border: none;
   background-color: #ffdda1;
+  border: 0.3rem solid #ecc583;
   font-size: 1rem;
 }
 
