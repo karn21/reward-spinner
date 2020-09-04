@@ -1,4 +1,5 @@
 import React from "react";
+import Spinner from "../components/spinner/Spinner";
 
 function Main() {
   return (
@@ -9,7 +10,9 @@ function Main() {
           Rewards
         </p>
       </div>
-      <div className="spinner"></div>
+      <div className="spinner">
+        <Spinner></Spinner>
+      </div>
       <div className="cta">
         <h3>Spin the wheel now to get rewarded</h3>
         <p>
