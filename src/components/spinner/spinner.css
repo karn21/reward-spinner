@@ -52,6 +52,10 @@ li:nth-child(8) {
   box-shadow: 0 0 0.8rem #646464;
 }
 
+.circle-container {
+  position: relative;
+}
+
 li {
   overflow: hidden;
   position: absolute;
@@ -97,6 +101,26 @@ li {
   background-color: #ffdda1;
   border: 0.3rem solid #ecc583;
   font-size: 1rem;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.spin-btn:hover {
+  background-color: #ffd284;
+}
+
+.rotate {
+  animation: rotate 1s linear infinite;
+}
+
+.stop {
+  animation-play-state: paused;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media only screen and (min-width: 360px) {
